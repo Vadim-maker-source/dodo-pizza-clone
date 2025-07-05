@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /sign-in
+Disallow: /sign-up
+Disallow: /create-order
+Sitemap: https://dodo-pizza-clone-green.vercel.app/sitemap.xml
