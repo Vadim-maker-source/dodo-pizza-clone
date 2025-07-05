@@ -74,7 +74,7 @@ const CreateOrder = () => {
       deleteCartItems(user.userId)
 
       // Отправляем письма
-      await fetch('/api/notify-order', {
+      await fetch('https://dodo-pizza-clone-green.vercel.app/api/notify-order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

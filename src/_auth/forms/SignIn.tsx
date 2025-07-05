@@ -20,7 +20,7 @@ const SignIn = () => {
   const handleLogin = async () => {
     const session = await signIn(email, password);
     if (session) {
-      await fetch('/api/notify-login', {
+      await fetch('https://dodo-pizza-clone-green.vercel.app/api/notify-login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, userAgent: navigator.userAgent }),
