@@ -4,7 +4,7 @@ import Topbar from '../components/Topbar'
 const RootLayout = () => {
   return (
     <div className='w-full'>
-        <Topbar cart={[]} />
+        <Topbar />
         <Outlet />
     </div>
   )
