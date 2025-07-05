@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sanchez:ital@0;1&family=Unbounded:wght@200..900&display=swap');
+
+@import "tailwindcss";
+
+*{
+    font-family: Nunito;
+}
+
+.bg-container{
+    background: rgba(0, 0, 0, 0.6);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield;
+}
+
+.react-dadata__container {
+    position: relative;
+  }
+  
+  .react-dadata__input {
+    display: block;
+    box-sizing: border-box;
+    border: 1px solid #d1d5dc;
+    border-radius: 12px;
+    width: 100%;
+    font-size: 18px;
+    line-height: 1.4;
+    padding: 16px;
+    outline: none;
+    margin-top: 15px;
+  }
+  
+  .react-dadata__input:focus {
+    border-color: #ff6900;
+  }
+  
+  .react-dadata__suggestions {
+    position: absolute;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 1px 6px 3px rgba(0,0,0,.1);
+    top: calc(100% + 8px);
+    border-radius: 4px;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    text-align: left;
+  }
+  
+  .react-dadata__suggestion-note {
+    font-size: 14px;
+    color: #828282;
+    padding: 10px 10px 5px 10px;
+  }
+  
+  .react-dadata__suggestion {
+    font-size: 16px;
+    padding: 12px;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    background: none;
+    border: none;
+    text-align: left;
+  }
+  
+  .react-dadata__suggestion--line-through {
+    text-decoration: line-through;
+  }
+  
+  .react-dadata__suggestion-subtitle {
+    font-size: 14px;
+    margin-top: 4px;
+    color: #777777;
+  }
+  
+  .react-dadata__suggestion-subtitle-item {
+    display: inline-block;
+    margin-right: 16px;
+    margin-bottom: 4px;
+  }
+  
+  .react-dadata__suggestion-subtitle-item:last-child {
+    margin-right: 0;
+  }
+  
+  .react-dadata__suggestion--current {
+    background-color: rgba(255, 105, 0, 0.15);
+  }
+  
+  .react-dadata__suggestion:hover {
+    background-color: rgba(255, 105, 0, 0.1);
+  }
+  
+  .react-dadata mark {
+    background: none;
+  }
+  
+  .react-dadata--highlighted {
+    color: #ff6900;
+  }
