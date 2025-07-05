@@ -1,14 +1,9 @@
 {
   "rewrites": [
-    { "source": "/api/(.*)", "destination": "/api/index.js" }
-  ],
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "redirects": [
-    {
-      "source": "/((?!api/.*|static/.*|_next/.*|favicon.ico|sitemap.xml|robots.txt).*)",
-      "destination": "/index.html",
-      "statusCode": 200
-    }
-  ]
+  { "source": "/api/(.*)", "destination": "/api/index.js" },
+  {
+    "source": "/(.*)",
+    "destination": "/index.html"
+  }
+]
 }
