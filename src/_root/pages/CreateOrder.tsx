@@ -74,7 +74,7 @@ const CreateOrder = () => {
       deleteCartItems(user.userId)
 
       // Отправляем письма
-      await fetch('http://localhost:5000/api/notify-order', {
+      await fetch('/api/notify-order', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

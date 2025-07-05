@@ -20,7 +20,7 @@ const SignIn = () => {
   const handleLogin = async () => {
     const session = await signIn(email, password);
     if (session) {
-      await fetch('http://localhost:5000/api/notify-login', {
+      await fetch('/api/notify-login', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({ email, userAgent: navigator.userAgent }),
