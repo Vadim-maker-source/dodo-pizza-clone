@@ -167,7 +167,7 @@ const Topbar = () => {
           </button>
           <button
             onClick={() => navigate('/sign-up')}
-            className="bg-white text-orange-600 border-2 border-orange-500 px-6 py-3 rounded-lg hover:bg-orange-50 transition font-bold text-lg"
+            className="bg-white text-orange-600 border-2 border-orange-500 px-6 py-3 rounded-lg hover:bg-orange-50 transition font-bold text-lg hidden md:block"
           >
             Регистрация
           </button>
