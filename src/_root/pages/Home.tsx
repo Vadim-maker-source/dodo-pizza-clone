@@ -74,7 +74,7 @@ const Home = () => {
           {filteredProducts.map((pizza) => (
             <div key={pizza.id} onClick={() => setSelectedPizza(pizza)} className="bg-white rounded-lg overflow-hidden duration-300 flex flex-col">
               {/* Блок с изображением (без изменений) */}
-              <div className="flex md:h-140 bg-orange-50 rounded-xl items-center justify-center">
+              <div className="flex md:h-140 bg-orange-50 rounded-xl items-center justify-center cursor-pointer">
                 <img
                   src={pizza.imageUrl}
                   alt={pizza.name}
@@ -90,7 +90,7 @@ const Home = () => {
                 </p>
                 <div className="flex justify-between items-center mt-2">
                   <h2 className="text-2xl">от <span className="font-bold">{pizza.price} ₽</span></h2>
-                  <button className="flex items-center justify-center text-orange-500 rounded-2xl px-6 py-4 text-lg bg-orange-50 font-semibold">
+                  <button className="flex items-center justify-center text-orange-500 rounded-2xl px-6 py-4 text-lg bg-orange-50 font-semibold cursor-pointer">
                     <svg 
                       xmlns="http://www.w3.org/2000/svg" 
                       width="25" 

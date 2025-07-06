@@ -90,7 +90,7 @@ const Topbar = () => {
         <input
           type="text"
           placeholder="Поиск..."
-          className="px-6 py-3 rounded-xl lg:w-150 bg-gray-100 border-none focus:outline-none focus:ring-2 focus:ring-orange-300 text-lg"
+          className="px-6 py-3 rounded-xl lg:w-150 bg-gray-100 border-none focus:outline-none focus:ring-2 text-lg"
           value={searchQuery}
           onChange={(e) => setSearchQuery(e.target.value)}
           onFocus={() => setShowSuggestions(true)}
