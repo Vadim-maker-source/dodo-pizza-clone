@@ -301,7 +301,7 @@ export const PizzaDetailsModal = ({
               </div>
               <button
                 onClick={handleAddToCart}
-                className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-semibold transition-colors shadow-md"
+                className="bg-orange-500 hover:bg-orange-600 text-white px-6 py-3 rounded-full font-semibold transition-colors shadow-md cursor-pointer"
               >
                 Добавить в корзину
               </button>
